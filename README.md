@@ -25,3 +25,9 @@ Relevant Definitions:
 1-  A rooted tree is a tree $T$ where a special vertex, denoted by $r_T$, is identified as the root of $T$.
 2-  A rooted binary tree is a rooted tree $T$ where every vertex has either no children (i.e., is a leaf ) or two children. 
 3-  Let T be a rooted binary tree. For a set $S \subseteq L(T)$, the rooted binary subtree $T[S]$ induced by $S$ is obtained by first taking the minimal connected subgraph $T'$, of $T$ containing $S$, letting $r_{T[S]}$ be the closest vertex of $T'$ to $r_T$, and then suppressing all other degree-2 vertices in $T′$. 
+
+The code is written in Sagemath 10.4, which is available in WSL2 (Windows Subsystem for Linux) in Windows 11.
+
+Download Sagemath: https://www.sagemath.org/
+
+Download WSL2: https://learn.microsoft.com/en-us/windows/wsl/install
