@@ -3,11 +3,13 @@ Sagemath programs related to rooted binary trees and tanglegrams
 
 This package contains Sagemath code to calculate:
 
-1- the k-multideck of a rooted binary tree T with n leaves, namely, the multiset of rooted binary trees "induced" by (n-1)-subsets of the leaves of T. (cf. below for the definition of an induced subtree.)
+1- "minimal_universal_tree_calculator": the list of k-universal rooted binary trees, namely, the rooted binary trees of minimum size, containing every rooted binary tree of size k as an induced subtree.
 
-2- the list of k-universal rooted binary trees, namely, the rooted binary trees of minimum size, containing every rooted binary tree of size k as an induced subtree.
+2- "maximum_number_of_non_isomorphic_subtrees": the number of non-isomorphic induced subtrees of a fixed binary tree. 
 
-3- the number of non-isomorphic induced subtrees of a fixed binary tree. 
+3- "tanglegram_isomorphism": Determines whether two tanglegrams are isomorphic, but the algorithm is not shown to work for every size. (works in polynomial time on the number of leaves/vertices.)
+
+4- "tanglegram_multideck_calculator": the k-multideck of a tanglegram T with n leaves, namely, the multiset of tanglegrams "induced" by (n-1)-subsets of the leaves of the left tree, and the corresponding leaves on the right tree, given by the matching. (works in exponential time on the number of leaves/vertices.)
 
 The repository contains the first three programs just mentioned. 
 
