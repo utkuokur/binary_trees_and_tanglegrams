@@ -7,7 +7,7 @@ This package contains Sagemath code to calculate:
 
 2- "maximum_number_of_non_isomorphic_subtrees": the number of non-isomorphic induced subtrees of a fixed binary tree. 
 
-3- "tanglegram_multideck_calculator": the k-multideck of a tanglegram T with n leaves, namely, the multiset of tanglegrams "induced" by (n-1)-subsets of the leaves of the left tree, and the corresponding leaves on the right tree, given by the matching. (works in exponential time on the number of leaves/vertices.)
+3- "tanglegram_multideck_calculator": the (n-1)-multideck of a tanglegram T with n leaves, namely, the multiset of tanglegrams "induced" by (n-1)-subsets of the leaves of the left tree, and the corresponding leaves on the right tree, given by the matching. (works in exponential time on the number of leaves/vertices.)
 
 The repository contains the first three programs just mentioned. 
 
