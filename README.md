@@ -9,6 +9,8 @@ This package contains Sagemath code to calculate:
 
 3- "tanglegram_multideck_calculator": the (n-1)-multideck of a tanglegram T with n leaves, namely, the multiset of tanglegrams "induced" by (n-1)-subsets of the leaves of the left tree, and the corresponding leaves on the right tree, given by the matching. (works in exponential time on the number of leaves/vertices.)
 
+4- The python code "tangle_exp_time_but_faster" calculates the multideck of a tanglegram as in (3), but it works much faster, although it is still not polynomial time in the number of leaves. Theoretically, polynomial time algorithm is feasible, but not implemented. 
+
 The repository contains the first three programs just mentioned. 
 
 These and related concepts are described in the paper:
